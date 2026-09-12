@@ -216,7 +216,20 @@ was already running.
 Command: `.venv/Scripts/python.exe bench/worker_kill_bench.py` (raw output:
 `docs/worker_kill_bench_output.txt`).
 
-<!-- WORKER_KILL_RESULTS -->
+| | |
+|---|---|
+| Trials | 500 |
+| Trials where a kill signal was actually delivered | 500 |
+| Trials that required redelivery (attempts > 1) | 286 |
+| Total `SendRecord` rows written | 500 |
+| Duplicate `idempotency_key` groups | 0 |
+| **Duplicate sends** | **0** |
+| Wall-clock | 285.9s |
+
+An earlier capture of this same run was interrupted mid-benchmark by an
+unrelated environment restart at trial 350/500 and is not the number
+reported here; the run was repeated from a clean database to completion
+and this is that complete run's raw, unedited output.
 
 Each of the 500 trials is a distinct enrollment/step pair processed by a
 fresh child process this script started and held the PID of; a kill was
