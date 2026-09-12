@@ -1,7 +1,19 @@
-...50/500 trials done (28.6s elapsed)
-...100/500 trials done (54.9s elapsed)
-...150/500 trials done (84.4s elapsed)
-...200/500 trials done (115.0s elapsed)
-...250/500 trials done (145.7s elapsed)
-...300/500 trials done (173.0s elapsed)
-...350/500 trials done (202.2s elapsed)
+...50/500 trials done (28.3s elapsed)
+...100/500 trials done (57.7s elapsed)
+...150/500 trials done (86.9s elapsed)
+...200/500 trials done (116.9s elapsed)
+...250/500 trials done (145.5s elapsed)
+...300/500 trials done (172.4s elapsed)
+...350/500 trials done (202.9s elapsed)
+...400/500 trials done (230.3s elapsed)
+...450/500 trials done (259.1s elapsed)
+...500/500 trials done (285.9s elapsed)
+============================================================
+trials: 500
+trials where a kill signal was actually delivered: 500
+trials that required redelivery (attempts > 1): 286
+total SendRecord rows written: 500
+duplicate idempotency_key groups: 0
+DUPLICATE_SENDS: 0
+elapsed_seconds: 285.9
+============================================================
