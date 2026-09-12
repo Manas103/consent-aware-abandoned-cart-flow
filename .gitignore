@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+.pytest_cache/
+
+# Django/Celery runtime data (regenerate: `python manage.py migrate` creates
+# var/cartflow.sqlite3; the filesystem broker dirs are created automatically
+# on first Celery/Django import)
+backend/var/
+
+# Node / frontend
+frontend/node_modules/
+frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+
+# Terraform
+infra/terraform/.terraform/
+infra/terraform/*.tfstate
+infra/terraform/*.tfstate.backup
+infra/terraform/.terraform.lock.hcl

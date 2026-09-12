@@ -1,0 +1,12 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.10, pytest-8.3.3, pluggy-1.6.0 -- C:\Users\Manas\Downloads\Total Job Application process flow\projects\consent-aware-abandoned-cart-flow\backend\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+django: version: 4.2.16, settings: cartflow_backend.settings (from ini)
+rootdir: C:\Users\Manas\Downloads\Total Job Application process flow\projects\consent-aware-abandoned-cart-flow\backend
+configfile: pytest.ini
+plugins: django-4.9.0
+collecting ... collected 1 item
+
+tests/test_consent_gate.py::test_zero_sends_to_unconsented_over_100k_profiles Creating test database for alias 'default'...
+CONSENT_GATE_RESULT profiles=100000 would_send=30145 unconsented_in_would_send=0 not_consented_total=59745
+PASSED

@@ -1,0 +1,10 @@
+Building synthetic dataset: 20000 enrollments, 20000 send records...
+BEFORE (no index on send_record.enrollment_id): 4175.2 ms, 3592 rows returned
+AFTER (composite index on send_record(enrollment_id, step_index)): 4.7 ms, 3592 rows returned
+AFTER, second run (warm cache): 4.8 ms, 3592 rows returned
+============================================================
+BEFORE_MS: 4175.18
+AFTER_MS: 4.73
+AFTER_MS_WARM: 4.83
+SPEEDUP: 864.7x
+============================================================

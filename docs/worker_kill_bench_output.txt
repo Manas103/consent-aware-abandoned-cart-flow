@@ -1,0 +1,7 @@
+...50/500 trials done (28.6s elapsed)
+...100/500 trials done (54.9s elapsed)
+...150/500 trials done (84.4s elapsed)
+...200/500 trials done (115.0s elapsed)
+...250/500 trials done (145.7s elapsed)
+...300/500 trials done (173.0s elapsed)
+...350/500 trials done (202.2s elapsed)

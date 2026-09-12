@@ -1,0 +1,10 @@
+
+[1m[7m[36m RUN [39m[27m[22m [36mv2.1.9 [39m[90mC:/Users/Manas/Downloads/Total Job Application process flow/projects/consent-aware-abandoned-cart-flow/frontend[39m
+
+ [32m✓[39m tests/flowPayload.test.ts [2m([22m[2m5 tests[22m[2m)[22m[90m 3[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m1 passed[39m[22m[90m (1)[39m
+[2m      Tests [22m [1m[32m5 passed[39m[22m[90m (5)[39m
+[2m   Start at [22m 16:25:20
+[2m   Duration [22m 615ms[2m (transform 41ms, setup 0ms, collect 47ms, tests 3ms, environment 0ms, prepare 275ms)[22m
+
